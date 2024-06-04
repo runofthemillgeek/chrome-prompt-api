@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  padding: 6px;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+#output {
+  flex-grow: 1;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+#prompt-form {
+  display: flex;
+  gap: 10px;
+}
+
+#prompt {
+  flex-grow: 1;
+}
+
+#ask-btn {
+  flex-basis: 50px;
+}
+
+.answer + .question {
+  margin-top: 20px;
+}
